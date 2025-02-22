@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "AIzaSyCYyp1ZCHxt2wiTxsPQcwd9cmJl9i7HXFk"; 
+const API_KEY = "API_KEY"; 
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 
 export const generateLessonPlan = async (formData) => {
